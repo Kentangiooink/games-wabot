@@ -20,6 +20,7 @@ Daftar berhasil!
 │ Umur: ${age}thn
 │ SN: ${sn}
 ╰────
+*NB : JANGAN LUPA SUBREK MICHAEL OFC*
 `.trim())
 }
 handler.help = ['daftar', 'reg', 'register'].map(v => v + ' <nama>.<umur>')

@@ -21,29 +21,29 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ╠➥ *Uptime:* ${uptime}
 ║
 ╠═〘 DONASI 〙 ═
-╠➥ Gopay: 085713964963
-╠➥ Indosat: 085713964963
+╠➷ Dana: 082217590187
+╠➷ Telkomsel: 082217590187
 ║
 ╠═ Request? ${package.bugs.url}
 ╠═ officiall Group *${conn.getName(conn.user.jid)}* :
 ${(global.linkGC).map((v, i) => '║ *Group ' + (i + 1) + '*\n║' + v).join`\n║\n`}
 ║
 ║${readMore}
-╠═〘 PIRACY METRO BOT 〙 ═
-╠➥ *KAMI TIDAK BERTANGGUNG*
+╠═〘 Perhatian ❗ 〙 ═
+╠➷ *KAMI TIDAK BERTANGGUNG*
 ║   *JAWAB ATAS PENYALAH*
 ║   *GUNAAN BOT*
-╠➥ *KAMI TIDAK BERTANGGUNG*
-║   *JAWAB ATAS KEBOCORAN DATA*
-║   *PRIBADI ANDA*
-╠➥ *KAMI AKAN MENYIMPAN DATA*
-║   *SEPERTI NOMER TELEPON*
-║   *ANDA DI DATABASE KAMI*
+╠➷ *JIKA ADA PERKATAAN BOT*
+║   *YANG TIDAK MENYENANGKAN*
+║   *MOHON MAAF!!*
+╠➷ *KAMI AKAN MENYIMPAN DATA*
+║   *SEPERTI FOTO, VIDEO*
+║   *YANG KAMU KIRIM*
 ║ 
 ║ 
-╠═ ©2021 ${package.name}
-╠═ Scrip original by Norutomo
-╠═〘 METRO BOT 〙 ═
+╠═ ORI By Nurutomo
+╠═ ©2021 MICHAEL OFC
+╠═〘 MceLBOT 〙 ═
 `.trim(), m)
 }
 handler.help = ['info']

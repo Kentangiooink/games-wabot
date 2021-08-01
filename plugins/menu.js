@@ -76,7 +76,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │ Waktu: *%time*
 │
 │ Github:
-│ %github
+│ Cari sendiri:v
 ╰────`
     let header = conn.menu.header || '╭─「 %category 」'
     let body   = conn.menu.body   || '│➥ %cmd%islimit'
